@@ -49,7 +49,7 @@ model = nn.Sequential(
     nn.ReLU(),
     nn.Linear(in_features=16,out_features=8),
     nn.ReLU(),
-    nn.Linear(in_features=8,out_features=4)
+    nn.Linear(in_features=8,out_features=3)
 )
 
 
